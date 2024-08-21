@@ -1,0 +1,49 @@
+# Parâmetros base da otimização
+max_gen = 1000  # Número máximo de gerações
+pop_len = 5  # Tamanho da população
+x_len = 4  # Número de genes em cada indivíduo (x)
+elitism_rate = 0.1  # Percentual de indivíduos na população atual que serão mantidos na população seguinte
+mutation_rate = 0.1  # Probabilidade de um determinado indivíduo sofrer mutação
+random_seed = 0  # Semente para geração dos números aleatórios. Caso não seja definida, assumirá o valor de time.time()
+
+# Métodos a serem empregados nas operações executadas pelo AG (operadores genéticos)
+select_method = 'roulette'  # Método de seleção a ser empregado
+cross_method = 'arithmetic_recombination'  # Método empregado na recombinação (crossover)
+mut_method = 'nonuniform_gaussian'  # Método empregado na mutação
+gene_type = 'real'  # Tipo numérico dos genes do indivíduo (dita como a primeira população será inicializada)
+
+# Parâmetros associados às restrições
+
+## Variávei de otimização
+# N = x[0]
+# I_max = x[1]
+# c = x[2]
+# h_w = x[3]
+
+#x_l = [0.0, 0.0, 0.0033, 0.0033]  # Limites inferiores para cada um dos genes do indivíduo
+#x_u = [500.0, 50.0, 0.066, 0.132]  # Limites superiores para cada um dos genes do indivíduo
+x_l = [25.9, 0.49, 0.0011, 0.00265]  # Limites inferiores para cada um dos genes do indivíduo
+x_u = [518.0, 9.88, 0.02199, 0.05304]  # Limites superiores para cada um dos genes do indivíduo
+bound_constraints_processing = 'truncate'  # Como as restrições laterais serão processadas ("truncate", padrão, ou "inequality")
+restrictions_weight = 1000  # Peso que determina o impacto do desrespeito das restrições na função objetivo
+
+# Parâmetros associados às condições de parada
+max_exec_time_seconds = 60  # Duração máxima da execução
+
+## Se a variação da função objetivo (levando-se em conta o melhor indivíduo) for menor do que "min_f_obj_value_diff"
+## por "generations_to_check_f_obj_diff" gerações, a otimização será encerrada
+min_f_obj_value_diff = 1e-10
+generations_to_check_f_obj_diff = 100
+
+# Parâmetros associados à apresentação dos resultados
+plot_f_obj_history = true  # Define se a evolução da função objetivo será representada graficamente
+log_level = 'debug'  # Nível dos logs apresentados ("debug", "info" ou "error")
+log_path = 'mma.log'  # Nome do arquivo onde os logs serão armazenados
+
+# Parâmetros associados à recombinação. Os parâmetros a serem definidos podem variar de acordo com o método escolhido
+[crossover]
+alpha = 0.3  # Fator que define o peso que cada pai terá na computação de seus filhos (sugere-se 0 < alpha < 0.5)
+
+# Parâmetros associados à mutação. Os parâmetros a serem definidos podem variar de acordo com o método escolhido
+[mutation]
+reduce_mut_factor = 6  # Quanto maior for o "reduce_mut_factor", mais sutil será a alteração provocada pela mutação
