@@ -27,7 +27,7 @@ restrictions_weight = 1000  # Peso que determina o impacto do desrespeito das re
 
 # Parâmetros associados à apresentação dos resultados
 plot_f_obj_history = true  # Define se a evolução da função objetivo será representada graficamente
-log_level = 'debug'  # Nível dos logs apresentados ("debug", "info" ou "error")
+log_level = 'debug'  # Nível dos logs apresentados ("debug", "info", "error" ou None)
 log_path = 'finance.log'  # Nome do arquivo onde os logs serão armazenados
 
 # Parâmetros associados à recombinação. Os parâmetros a serem definidos podem variar de acordo com o método escolhido
