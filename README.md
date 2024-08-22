@@ -25,7 +25,7 @@ $$
 $$
 
 $$
-\begin{aligned}\mathrm{w}_1+\mathrm{w}_2&= 1\\\mathrm{w}_1&\geq 0\\\mathrm{w}_1&\leq 1\end{aligned}
+\begin{aligned}\mathrm{w}_1+\mathrm{w}_2&= 1\\ \mathrm{w}_1&\geq 0\\ \mathrm{w}_1&\leq 1\end{aligned}
 $$
 
 Primeiramente montamos o arquivo de configurações TOML, que nesse caso receberá o nome de `configs_finance.toml`:
@@ -165,7 +165,7 @@ Abaixo se encontra um exemplo de um *log* bem-sucedido assim como de um gráfico
 2024-08-21T17:54:03.711927-0300 | INFO | Processo de otimização concluído com sucesso.
 ```
 
-![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/401073b4-20da-4bc5-b6a4-12b2b13fe1da/23cf7c1a-0ea4-44fa-a60d-ec542afffa4e/Figure_1.png)
+![Figure_1](https://github.com/user-attachments/assets/56d9c63d-4226-44b8-987c-59b8f5abb5e5)
 
 # Licença
 
