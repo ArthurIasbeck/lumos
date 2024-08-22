@@ -21,8 +21,11 @@ pip install git+https://github.com/ArthurIasbeck/lumos@main
 A utilização do *Lumos* depende da construção de um arquivo TOML, em que são definidos os parâmetros nos quais a solução do problema de otimização se baseia. Além disso, é necessário construir *script* no qual o *Lumos* será instanciado e serão definidas a função objetivo (fitness) a ser maximizada e as restrições associadas ao problema de otimização a ser resolvido. O exemplo abaixo mostra como o *Lumos* foi empregado na resolução de um problema de otimização relacionado a finanças. A pergunta a ser respondida é: se tivermos 1 dólar e nos envolvermos em dois investimentos diferentes, nos quais seu retorno é modelado como uma distribuição gaussiana bivariada. Quanto devemos investir em cada um para minimizar a variância geral no retorno? O problema em questão pode ser formulado conforme segue:
 
 $$ \mathrm{f}(\mathrm{w}_1,\mathrm{w}_2)=0.25 \mathrm{w}_1^2+0.1\mathrm{w}_2^2+0.3\mathrm{w}_1\mathrm{w}_2 $$
+
 $$ \mathrm{w}_1 + \mathrm{w}_2 = 1 $$
+
 $$ \mathrm{w}_1 \geq 0 $$
+
 $$ \mathrm{w}_1 \leq $$
 
 Primeiramente montamos o arquivo de configurações TOML, que nesse caso receberá o nome de `configs_finance.toml`:
