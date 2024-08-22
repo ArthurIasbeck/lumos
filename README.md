@@ -26,7 +26,7 @@ $$ \mathrm{w}_1 + \mathrm{w}_2 = 1 $$
 
 $$ \mathrm{w}_1 \geq 0 $$
 
-$$ \mathrm{w}_1 \leq $$
+$$ \mathrm{w}_1 \leq 1$$
 
 Primeiramente montamos o arquivo de configurações TOML, que nesse caso receberá o nome de `configs_finance.toml`:
 
