@@ -1,0 +1,528 @@
+2024-08-22T16:08:01.312839-0300 | INFO | Semente utilizada na geração dos números aleatórios: 1724353681.
+2024-08-22T16:08:01.321546-0300 | INFO | Iniciando processo de otimização (2024-08-22 16:08:01).
+2024-08-22T16:08:01.321687-0300 | INFO | Iniciando checagem dos parâmetros fornecidos pelo usuário.
+2024-08-22T16:08:01.321769-0300 | INFO | Checagem dos parâmetros concluída com sucesso.
+2024-08-22T16:08:01.321838-0300 | INFO | Parâmetros fornecidos pelo usuário:
+2024-08-22T16:08:01.321912-0300 | INFO |      - Número máximo de gerações: 35.
+2024-08-22T16:08:01.321965-0300 | INFO |      - Tamanho da população: 100.
+2024-08-22T16:08:01.322015-0300 | INFO |      - Comprimento do indivíduo (quantidade de genes): 2.
+2024-08-22T16:08:01.322064-0300 | INFO |      - Método de seleção: roulette.
+2024-08-22T16:08:01.322112-0300 | INFO |      - Método de recombinação (crossover): arithmetic_recombination.
+2024-08-22T16:08:01.322159-0300 | INFO |      - Método de mutação: nonuniform_gaussian.
+2024-08-22T16:08:01.322247-0300 | INFO | Assumindo que 20 indivíduos serão mantidos a cada geração (elitismo).
+2024-08-22T16:08:01.322305-0300 | INFO | Será necessário selecionar 80 pais na etapa de seleção.
+2024-08-22T16:08:01.322360-0300 | DEBUG | Definição dos indivíduos da população inicial (em que os genes são números reais).
+2024-08-22T16:08:01.322604-0300 | DEBUG | Inicialização do vetor que armazena os fitness dos indivíduos da população.
+2024-08-22T16:08:01.325732-0300 | INFO | Geração: 0 | Melhor fitness: -3.657271371466379 | Indivíduo: [0.08107254 0.92247555]
+2024-08-22T16:08:01.325862-0300 | DEBUG | Iniciando processamento da geração 1.
+2024-08-22T16:08:01.325929-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.326462-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.326536-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.326714-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.326773-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.326930-0300 | DEBUG | Mutação concluída com sucesso (11 mutados).
+2024-08-22T16:08:01.326994-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.327101-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.332210-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.332449-0300 | INFO | Geração: 0 | Melhor fitness: -3.657271371466379 | Indivíduo: [0.08107254 0.92247555]
+2024-08-22T16:08:01.332525-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.332582-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.332635-0300 | DEBUG | Processamento da geração 1 concluído com sucesso.
+2024-08-22T16:08:01.332702-0300 | DEBUG | Iniciando processamento da geração 2.
+2024-08-22T16:08:01.332756-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.333264-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.333334-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.333508-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.333564-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.333687-0300 | DEBUG | Mutação concluída com sucesso (6 mutados).
+2024-08-22T16:08:01.333742-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.333823-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.339075-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.339318-0300 | INFO | Geração: 1 | Melhor fitness: -2.210748073239839 | Indivíduo: [0.62562906 0.37639903]
+2024-08-22T16:08:01.339394-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.339450-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.339523-0300 | DEBUG | Processamento da geração 2 concluído com sucesso.
+2024-08-22T16:08:01.339579-0300 | DEBUG | Iniciando processamento da geração 3.
+2024-08-22T16:08:01.339643-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.340164-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.340239-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.340413-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.340471-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.340622-0300 | DEBUG | Mutação concluída com sucesso (13 mutados).
+2024-08-22T16:08:01.340679-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.340784-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.345981-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.346246-0300 | INFO | Geração: 2 | Melhor fitness: -0.25130050341445886 | Indivíduo: [0.30031517 0.69956804]
+2024-08-22T16:08:01.346322-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.346378-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.346431-0300 | DEBUG | Processamento da geração 3 concluído com sucesso.
+2024-08-22T16:08:01.346483-0300 | DEBUG | Iniciando processamento da geração 4.
+2024-08-22T16:08:01.346536-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.347042-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.347114-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.347291-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.347349-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.347480-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.347537-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.347620-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.352800-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.353053-0300 | INFO | Geração: 3 | Melhor fitness: -0.25130050341445886 | Indivíduo: [0.30031517 0.69956804]
+2024-08-22T16:08:01.353127-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.353185-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.353239-0300 | DEBUG | Processamento da geração 4 concluído com sucesso.
+2024-08-22T16:08:01.353292-0300 | DEBUG | Iniciando processamento da geração 5.
+2024-08-22T16:08:01.353342-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.353840-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.353921-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.354094-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.354152-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.354283-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.354339-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.354419-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.359615-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.359791-0300 | INFO | Geração: 4 | Melhor fitness: -0.25130050341445886 | Indivíduo: [0.30031517 0.69956804]
+2024-08-22T16:08:01.359876-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.359944-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.359996-0300 | DEBUG | Processamento da geração 5 concluído com sucesso.
+2024-08-22T16:08:01.360073-0300 | DEBUG | Iniciando processamento da geração 6.
+2024-08-22T16:08:01.360124-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.360612-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.360677-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.360853-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.360914-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.361042-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.361097-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.361169-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.366314-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.366491-0300 | INFO | Geração: 5 | Melhor fitness: -0.25130050341445886 | Indivíduo: [0.30031517 0.69956804]
+2024-08-22T16:08:01.366562-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.366618-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.366671-0300 | DEBUG | Processamento da geração 6 concluído com sucesso.
+2024-08-22T16:08:01.366722-0300 | DEBUG | Iniciando processamento da geração 7.
+2024-08-22T16:08:01.366774-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.367272-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.367355-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.367544-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.367599-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.367726-0300 | DEBUG | Mutação concluída com sucesso (7 mutados).
+2024-08-22T16:08:01.367794-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.367875-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.373012-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.373190-0300 | INFO | Geração: 6 | Melhor fitness: -0.25130050341445886 | Indivíduo: [0.30031517 0.69956804]
+2024-08-22T16:08:01.373261-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.373316-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.373369-0300 | DEBUG | Processamento da geração 7 concluído com sucesso.
+2024-08-22T16:08:01.373421-0300 | DEBUG | Iniciando processamento da geração 8.
+2024-08-22T16:08:01.373473-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.373971-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.374041-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.374223-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.374285-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.374432-0300 | DEBUG | Mutação concluída com sucesso (14 mutados).
+2024-08-22T16:08:01.374488-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.374561-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.379773-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.379953-0300 | INFO | Geração: 7 | Melhor fitness: -0.1721757034306356 | Indivíduo: [0.53756881 0.46243516]
+2024-08-22T16:08:01.380029-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.380086-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.380138-0300 | DEBUG | Processamento da geração 8 concluído com sucesso.
+2024-08-22T16:08:01.380189-0300 | DEBUG | Iniciando processamento da geração 9.
+2024-08-22T16:08:01.380251-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.380737-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.380802-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.380984-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.381044-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.381174-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.381232-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.381305-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.386479-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.386654-0300 | INFO | Geração: 8 | Melhor fitness: -0.1721757034306356 | Indivíduo: [0.53756881 0.46243516]
+2024-08-22T16:08:01.386725-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.386780-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.386835-0300 | DEBUG | Processamento da geração 9 concluído com sucesso.
+2024-08-22T16:08:01.386897-0300 | DEBUG | Iniciando processamento da geração 10.
+2024-08-22T16:08:01.386948-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.387429-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.387495-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.387683-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.387739-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.387880-0300 | DEBUG | Mutação concluída com sucesso (7 mutados).
+2024-08-22T16:08:01.387941-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.388013-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.393327-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.393506-0300 | INFO | Geração: 9 | Melhor fitness: -0.1716760814138686 | Indivíduo: [0.48248925 0.51749896]
+2024-08-22T16:08:01.393566-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.393607-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.393645-0300 | DEBUG | Processamento da geração 10 concluído com sucesso.
+2024-08-22T16:08:01.393681-0300 | DEBUG | Iniciando processamento da geração 11.
+2024-08-22T16:08:01.393715-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.394009-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.394062-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.394164-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.394200-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.394286-0300 | DEBUG | Mutação concluída com sucesso (13 mutados).
+2024-08-22T16:08:01.394323-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.394373-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.397179-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.397305-0300 | INFO | Geração: 10 | Melhor fitness: -0.1716760814138686 | Indivíduo: [0.48248925 0.51749896]
+2024-08-22T16:08:01.397355-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.397392-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.397426-0300 | DEBUG | Processamento da geração 11 concluído com sucesso.
+2024-08-22T16:08:01.397459-0300 | DEBUG | Iniciando processamento da geração 12.
+2024-08-22T16:08:01.397493-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.397779-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.397826-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.397937-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.397975-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.398046-0300 | DEBUG | Mutação concluída com sucesso (5 mutados).
+2024-08-22T16:08:01.398084-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.398133-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.401105-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.401240-0300 | INFO | Geração: 11 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.401293-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.401332-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.401368-0300 | DEBUG | Processamento da geração 12 concluído com sucesso.
+2024-08-22T16:08:01.401401-0300 | DEBUG | Iniciando processamento da geração 13.
+2024-08-22T16:08:01.401436-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.401710-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.401770-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.401876-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.401919-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.401999-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.402036-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.402086-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.405106-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.405240-0300 | INFO | Geração: 12 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.405292-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.405330-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.405366-0300 | DEBUG | Processamento da geração 13 concluído com sucesso.
+2024-08-22T16:08:01.405400-0300 | DEBUG | Iniciando processamento da geração 14.
+2024-08-22T16:08:01.405434-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.405841-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.405924-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.406028-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.406066-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.406145-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.406183-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.406232-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.409015-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.409137-0300 | INFO | Geração: 13 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.409188-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.409225-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.409261-0300 | DEBUG | Processamento da geração 14 concluído com sucesso.
+2024-08-22T16:08:01.409295-0300 | DEBUG | Iniciando processamento da geração 15.
+2024-08-22T16:08:01.409328-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.409599-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.409645-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.409753-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.409791-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.409872-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.409929-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.409979-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.412935-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.413067-0300 | INFO | Geração: 14 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.413120-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.413158-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.413193-0300 | DEBUG | Processamento da geração 15 concluído com sucesso.
+2024-08-22T16:08:01.413227-0300 | DEBUG | Iniciando processamento da geração 16.
+2024-08-22T16:08:01.413260-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.413532-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.413578-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.413679-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.413716-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.413787-0300 | DEBUG | Mutação concluída com sucesso (6 mutados).
+2024-08-22T16:08:01.413825-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.413882-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.416745-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.416892-0300 | INFO | Geração: 15 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.416948-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.416986-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.417021-0300 | DEBUG | Processamento da geração 16 concluído com sucesso.
+2024-08-22T16:08:01.417056-0300 | DEBUG | Iniciando processamento da geração 17.
+2024-08-22T16:08:01.417090-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.417358-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.417406-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.417506-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.417543-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.417614-0300 | DEBUG | Mutação concluída com sucesso (6 mutados).
+2024-08-22T16:08:01.417653-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.417702-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.420654-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.420787-0300 | INFO | Geração: 16 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.420840-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.420889-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.420937-0300 | DEBUG | Processamento da geração 17 concluído com sucesso.
+2024-08-22T16:08:01.420972-0300 | DEBUG | Iniciando processamento da geração 18.
+2024-08-22T16:08:01.421006-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.421280-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.421326-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.421428-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.421506-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.421687-0300 | DEBUG | Mutação concluída com sucesso (10 mutados).
+2024-08-22T16:08:01.421766-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.421820-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.424821-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.424972-0300 | INFO | Geração: 17 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.425025-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.425064-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.425100-0300 | DEBUG | Processamento da geração 18 concluído com sucesso.
+2024-08-22T16:08:01.425133-0300 | DEBUG | Iniciando processamento da geração 19.
+2024-08-22T16:08:01.425167-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.425446-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.425492-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.425593-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.425630-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.425706-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.425743-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.425792-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.428599-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.428719-0300 | INFO | Geração: 18 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.428771-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.428809-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.428843-0300 | DEBUG | Processamento da geração 19 concluído com sucesso.
+2024-08-22T16:08:01.428887-0300 | DEBUG | Iniciando processamento da geração 20.
+2024-08-22T16:08:01.428922-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.429191-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.429236-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.429337-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.429373-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.429450-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.429487-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.429536-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.432342-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.432462-0300 | INFO | Geração: 19 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.432513-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.432550-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.432584-0300 | DEBUG | Processamento da geração 20 concluído com sucesso.
+2024-08-22T16:08:01.432618-0300 | DEBUG | Iniciando processamento da geração 21.
+2024-08-22T16:08:01.432651-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.432925-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.432974-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.433075-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.433111-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.433188-0300 | DEBUG | Mutação concluída com sucesso (5 mutados).
+2024-08-22T16:08:01.433226-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.433275-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.436093-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.436223-0300 | INFO | Geração: 20 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.436274-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.436311-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.436345-0300 | DEBUG | Processamento da geração 21 concluído com sucesso.
+2024-08-22T16:08:01.436378-0300 | DEBUG | Iniciando processamento da geração 22.
+2024-08-22T16:08:01.436411-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.436679-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.436724-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.436823-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.436866-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.436956-0300 | DEBUG | Mutação concluída com sucesso (14 mutados).
+2024-08-22T16:08:01.436994-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.437043-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.439989-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.440121-0300 | INFO | Geração: 21 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.440173-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.440211-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.440245-0300 | DEBUG | Processamento da geração 22 concluído com sucesso.
+2024-08-22T16:08:01.440279-0300 | DEBUG | Iniciando processamento da geração 23.
+2024-08-22T16:08:01.440313-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.440584-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.440630-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.440730-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.440776-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.440852-0300 | DEBUG | Mutação concluída com sucesso (5 mutados).
+2024-08-22T16:08:01.440894-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.440944-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.443755-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.443879-0300 | INFO | Geração: 22 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.443933-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.443971-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.444007-0300 | DEBUG | Processamento da geração 23 concluído com sucesso.
+2024-08-22T16:08:01.444041-0300 | DEBUG | Iniciando processamento da geração 24.
+2024-08-22T16:08:01.444075-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.444376-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.444431-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.444531-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.444566-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.444643-0300 | DEBUG | Mutação concluída com sucesso (10 mutados).
+2024-08-22T16:08:01.444688-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.444739-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.447757-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.447896-0300 | INFO | Geração: 23 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.447953-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.447992-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.448028-0300 | DEBUG | Processamento da geração 24 concluído com sucesso.
+2024-08-22T16:08:01.448062-0300 | DEBUG | Iniciando processamento da geração 25.
+2024-08-22T16:08:01.448096-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.448369-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.448414-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.448516-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.448553-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.448629-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.448668-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.448716-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.451637-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.451767-0300 | INFO | Geração: 24 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.451818-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.451863-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.451903-0300 | DEBUG | Processamento da geração 25 concluído com sucesso.
+2024-08-22T16:08:01.451939-0300 | DEBUG | Iniciando processamento da geração 26.
+2024-08-22T16:08:01.451973-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.452242-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.452287-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.452388-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.452424-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.452489-0300 | DEBUG | Mutação concluída com sucesso (2 mutados).
+2024-08-22T16:08:01.452526-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.452574-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.455384-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.455504-0300 | INFO | Geração: 25 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.455554-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.455592-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.455626-0300 | DEBUG | Processamento da geração 26 concluído com sucesso.
+2024-08-22T16:08:01.455660-0300 | DEBUG | Iniciando processamento da geração 27.
+2024-08-22T16:08:01.455693-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.455968-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.456017-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.456119-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.456155-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.456234-0300 | DEBUG | Mutação concluída com sucesso (10 mutados).
+2024-08-22T16:08:01.456271-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.456321-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.459152-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.459270-0300 | INFO | Geração: 26 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.459320-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.459358-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.459393-0300 | DEBUG | Processamento da geração 27 concluído com sucesso.
+2024-08-22T16:08:01.459426-0300 | DEBUG | Iniciando processamento da geração 28.
+2024-08-22T16:08:01.459460-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.459727-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.459772-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.459880-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.459937-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.460022-0300 | DEBUG | Mutação concluída com sucesso (13 mutados).
+2024-08-22T16:08:01.460060-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.460109-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.462948-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.463089-0300 | INFO | Geração: 27 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.463143-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.463183-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.463220-0300 | DEBUG | Processamento da geração 28 concluído com sucesso.
+2024-08-22T16:08:01.463256-0300 | DEBUG | Iniciando processamento da geração 29.
+2024-08-22T16:08:01.463291-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.463562-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.463609-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.463710-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.463747-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.463825-0300 | DEBUG | Mutação concluída com sucesso (10 mutados).
+2024-08-22T16:08:01.463876-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.463930-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.466724-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.466863-0300 | INFO | Geração: 28 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.466924-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.466963-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.466999-0300 | DEBUG | Processamento da geração 29 concluído com sucesso.
+2024-08-22T16:08:01.467046-0300 | DEBUG | Iniciando processamento da geração 30.
+2024-08-22T16:08:01.467080-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.467359-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.467405-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.467505-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.467541-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.467618-0300 | DEBUG | Mutação concluída com sucesso (9 mutados).
+2024-08-22T16:08:01.467657-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.467706-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.470523-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.470654-0300 | INFO | Geração: 29 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.470707-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.470746-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.470780-0300 | DEBUG | Processamento da geração 30 concluído com sucesso.
+2024-08-22T16:08:01.470815-0300 | DEBUG | Iniciando processamento da geração 31.
+2024-08-22T16:08:01.470853-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.471128-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.471177-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.471278-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.471315-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.471394-0300 | DEBUG | Mutação concluída com sucesso (10 mutados).
+2024-08-22T16:08:01.471432-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.471481-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.474268-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.474388-0300 | INFO | Geração: 30 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.474438-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.474476-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.474511-0300 | DEBUG | Processamento da geração 31 concluído com sucesso.
+2024-08-22T16:08:01.474545-0300 | DEBUG | Iniciando processamento da geração 32.
+2024-08-22T16:08:01.474579-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.474851-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.474913-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.475013-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.475049-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.475118-0300 | DEBUG | Mutação concluída com sucesso (5 mutados).
+2024-08-22T16:08:01.475156-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.475205-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.478015-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.478147-0300 | INFO | Geração: 31 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.478197-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.478235-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.478269-0300 | DEBUG | Processamento da geração 32 concluído com sucesso.
+2024-08-22T16:08:01.478302-0300 | DEBUG | Iniciando processamento da geração 33.
+2024-08-22T16:08:01.478335-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.478602-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.478660-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.478759-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.478795-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.478875-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.478924-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.478975-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.481742-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.481862-0300 | INFO | Geração: 32 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.481922-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.481961-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.481995-0300 | DEBUG | Processamento da geração 33 concluído com sucesso.
+2024-08-22T16:08:01.482029-0300 | DEBUG | Iniciando processamento da geração 34.
+2024-08-22T16:08:01.482064-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.482341-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.482386-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.482485-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.482522-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.482603-0300 | DEBUG | Mutação concluída com sucesso (12 mutados).
+2024-08-22T16:08:01.482641-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.482690-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.485534-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.485661-0300 | INFO | Geração: 33 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.485714-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.485754-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.485789-0300 | DEBUG | Processamento da geração 34 concluído com sucesso.
+2024-08-22T16:08:01.485823-0300 | DEBUG | Iniciando processamento da geração 35.
+2024-08-22T16:08:01.485863-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.486139-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.486185-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.486286-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.486323-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.486407-0300 | DEBUG | Mutação concluída com sucesso (13 mutados).
+2024-08-22T16:08:01.486444-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.486492-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.489315-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.489451-0300 | INFO | Geração: 34 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.489501-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.489539-0300 | DEBUG | Verificação dos critérios de parada concluída com sucesso.
+2024-08-22T16:08:01.489573-0300 | DEBUG | Processamento da geração 35 concluído com sucesso.
+2024-08-22T16:08:01.489607-0300 | DEBUG | Iniciando processamento da geração 36.
+2024-08-22T16:08:01.489640-0300 | DEBUG | Iniciando etapa de seleção (aplicação do Método da Roleta)
+2024-08-22T16:08:01.489916-0300 | DEBUG | Seleção concluída com sucesso.
+2024-08-22T16:08:01.489965-0300 | DEBUG | Iniciando etapa de recombinação (método da recombinação aritmética).
+2024-08-22T16:08:01.490065-0300 | DEBUG | Recombinação concluída com sucesso.
+2024-08-22T16:08:01.490102-0300 | DEBUG | Iniciando processo de mutação.
+2024-08-22T16:08:01.490181-0300 | DEBUG | Mutação concluída com sucesso (8 mutados).
+2024-08-22T16:08:01.490220-0300 | DEBUG | Iniciando construção da nova população.
+2024-08-22T16:08:01.490269-0300 | DEBUG | Realizando o truncameno dos genes dos indivíduos da população.
+2024-08-22T16:08:01.493070-0300 | DEBUG | Nova população construída com sucesso.
+2024-08-22T16:08:01.493189-0300 | INFO | Geração: 35 | Melhor fitness: -0.14283251598808866 | Indivíduo: [0.34266631 0.65733099]
+2024-08-22T16:08:01.493240-0300 | DEBUG | Iniciando verificação dos critérios de parada.
+2024-08-22T16:08:01.493284-0300 | INFO | Alcançado o número máximo de iterações.
+2024-08-22T16:08:01.493320-0300 | INFO | Processo de iteração encerrado.
+2024-08-22T16:08:01.493358-0300 | INFO | Melhor fitness obtido: -0.14283251598808866.
+2024-08-22T16:08:01.493450-0300 | INFO | Melhor solução obtida: [0.34266631 0.65733099].
+2024-08-22T16:08:01.493502-0300 | INFO | Valores das restrições de igualdade (= 0): [-2.6955061183109308e-06].
+2024-08-22T16:08:01.493543-0300 | INFO | Valores das restrições de desigualdade (< 0): [-0.34266631250053325, -0.6573336874994667].
+2024-08-22T16:08:01.493581-0300 | INFO | Tempo despendido na execução: 0.19 s (0.00 minutos).
+2024-08-22T16:08:01.493615-0300 | INFO | Número de gerações: 35.
+2024-08-22T16:08:01.493649-0300 | INFO | Número de avaliações da função objetivo: 3700.
+2024-08-22T16:08:03.193460-0300 | INFO | Processo de otimização concluído com sucesso.

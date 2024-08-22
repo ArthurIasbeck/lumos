@@ -1,16 +1,16 @@
 # _Lumos_
 
-O *Lumos* é um pacote Python aberto que possibilita a resolução de problemas de otimização por meio do emprego de Algoritmos Genéticos (AGs) e, mais especificamente, da seleção via roleta, da recombinação aritmética e da mutação não uniforme gaussiana. Diferentemente de outros pacotes que possibilitam a implementação de AGs, o *Lumos* se baseia na utilização de operadores genéticos que operam diretamente sobre variáveis de otimização reais (de ponto flutuante), o que possibilita que problema de otimização baseados em variáveis desse tipo sejam resolvidos de forma mais eficiente. 
+O *Lumos* é um pacote Python aberto que possibilita a resolução de problemas de otimização por meio do emprego de Algoritmos Genéticos (AGs) e, mais especificamente, da seleção via roleta, da recombinação aritmética e da mutação não uniforme gaussiana. Diferentemente de outros pacotes que possibilitam a implementação dos AGs, o *Lumos* se baseia na utilização de operadores genéticos que manipulam diretamente variáveis de otimização reais (de ponto flutuante), o que possibilita que problemas de otimização baseados em variáveis desse tipo sejam resolvidos de forma mais eficiente.
 
 # Instalando o Lumos
 
-Para utilizar *Lumos*, basta adicionar a linha abaixo ao seu arquivo `requirements.txt` 
+Para utilizar *Lumos*, basta adicionar a linha abaixo ao arquivo `requirements.txt` de seu projeto 
 
 ```latex
 lumos @ git+https://github.com/ArthurIasbeck/lumos@main
 ```
 
-ou, se preferir, instalar o pacote diretamente, utilizando o comando 
+Se preferir, você pode instalar o *Lumos* diretamente, utilizando o comando
 
 ```latex
 pip install git+https://github.com/ArthurIasbeck/lumos@main
@@ -18,7 +18,7 @@ pip install git+https://github.com/ArthurIasbeck/lumos@main
 
 # Utilizando o Lumos
 
-A utilização do *Lumos* depende da construção de um arquivo TOML, em que são definidos os parâmetros nos quais a solução do problema de otimização se baseia. Além disso, é necessário construir *script* no qual o *Lumos* será instanciado e serão definidas a função objetivo (fitness) a ser maximizada e as restrições associadas ao problema de otimização a ser resolvido. O exemplo abaixo mostra como o *Lumos* foi empregado na resolução de um problema de otimização relacionado a finanças. A pergunta a ser respondida é: se tivermos 1 dólar e nos envolvermos em dois investimentos diferentes, nos quais seu retorno é modelado como uma distribuição gaussiana bivariada. Quanto devemos investir em cada um para minimizar a variância geral no retorno? O problema em questão pode ser formulado conforme segue:
+A utilização do *Lumos* depende da construção de um arquivo de configuração TOML e de um *script* no qual o *Lumos* será instanciado e em que serão definidas a função objetivo (fitness) a ser maximizada e as restrições associadas ao problema de otimização. O exemplo abaixo mostra como o *Lumos* foi empregado na resolução de um problema de otimização originado do setor financeiro. A pergunta a ser respondida é: se tivermos 1 dólar e nos envolvermos em dois investimentos diferentes, nos quais seu retorno é modelado como uma distribuição gaussiana bivariada, quanto devemos investir em cada um para minimizar a variância geral no retorno? O problema em questão pode ser formulado conforme segue:
 
 $$ f(w_1, w_2)=0.25 w_1^2 + 0.1 w_2^2 + 0.3 w_1 w_2 $$
 
@@ -27,6 +27,8 @@ $$ w_1 + w_2 = 1 $$
 $$ w_1 \geq 0 $$
 
 $$ w_1 \leq 1$$
+
+em que $f$ é a função objetivo (a ser minimizada), $w_1$ é o valor do primeiro investimento e $w_2$ o valor do segundo. 
 
 Primeiramente montamos o arquivo de configurações TOML, que nesse caso receberá o nome de `configs_finance.toml`:
 
@@ -72,7 +74,7 @@ alpha = 0.3  # Fator que define o peso que cada pai terá na computação de seu
 reduce_mut_factor = 6  # Quanto maior for o "reduce_mut_factor", mais sutil será a alteração provocada pela mutação
 ```
 
-Por fim, define-se o script principal: 
+Por fim, define-se o *script* principal:
 
 ```python
 import lumos
@@ -108,15 +110,15 @@ if __name__ == "__main__":
 
 ```
 
-O exemplo em questão pode ser verificado no diretório `examples`. 
+Tais arquivos se encontram no diretório `examples/finance`. 
 
 # Representação dos resultados
 
-O método `Ga.optimize()` retorna um objeto que contém várias informações referentes à solução encontrada. Além disso, se a variável `log_level` do arquivo de configurações assumir um valor diferente de `None` a evolução do processo de otimização é apresentada na tela. Caso se pretenda representar graficamente a evolução do valor da função objetivo ao longo das gerações, basta que se atribua à variável `plot_f_obj_history` o valor `True`. 
+O método `Ga.optimize()` retorna um objeto que contém várias informações referentes à solução encontrada para o problema de otimização em análise. Além disso, se a variável `log_level` do arquivo de configurações assumir um valor diferente de `None` informações sobre a evolução da população (de soluções) são constantemente apresentadas na tela e armazenadas em um arquivo `.log`. 
 
-Abaixo se encontra um exemplo de um *log* bem-sucedido assim como de um gráfico que representa a evolução do valor da função objetivo. 
+Caso seja necessário representar graficamente a evolução do valor da função objetivo ao longo das gerações, basta que se atribua à variável `plot_f_obj_history` o valor `True`. 
 
- 
+Abaixo se encontra um exemplo de um *log* bem-sucedido assim como de um gráfico que representa a evolução do valor da função objetivo.
 
 ```python
 2024-08-21T17:54:02.084218-0300 | INFO | Semente utilizada na geração dos números aleatórios: 1724273642.
@@ -178,9 +180,4 @@ A Licença Pública Geral GNU concede a você os seguintes direitos em relação
 - **Liberdade de redistribuir cópias** para que você possa ajudar outros.
 - **Liberdade de distribuir cópias de suas versões modificadas** para outros. Ao fazer isso, você pode dar a outras pessoas a chance de se beneficiarem das mudanças que você fez.
 
-Para mais informações, veja o arquivo [LICENSE](https://www.notion.so/arthur-iasbeck/LICENSE) neste repositório.
-
-# Melhorias futuras
-
-- Traduzir o pacote para o inglês.
-- Permitir que o usuário carregue os parâmetros de configuração a partir de um arquivo ou de um dicionário. Isso facilitaria a execução de análise de sensibilidade.
+Para mais informações, veja o arquivo LICENCE neste repositório.
