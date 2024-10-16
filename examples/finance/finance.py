@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def f_obj(x):
     w_1 = x[0]
     w_2 = x[1]
-    return -(0.25 * w_1**2 + 0.1 * w_2**2 + 0.3 * w_1 * w_2)
+    return -(0.25 * w_1 ** 2 + 0.1 * w_2 ** 2 + 0.3 * w_1 * w_2)
 
 
 def h_const(x):
@@ -28,7 +28,7 @@ def plot_f_obj():
     y = np.linspace(-5, 5, 100)
 
     X, Y = np.meshgrid(x, y)
-    Z = 0.25 * X**2 + 0.1 * Y**2 + 0.3 * X * Y
+    Z = 0.25 * X ** 2 + 0.1 * Y ** 2 + 0.3 * X * Y
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection="3d")

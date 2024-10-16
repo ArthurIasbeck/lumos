@@ -14,8 +14,7 @@ from lumos.genetic_operators.init_population_methods import (
 )
 
 
-plt.rcParams["font.family"] = "Times New Roman"
-plt.rcParams["font.size"] = 14
+plt.rcParams["font.size"] = 12
 
 
 def is_odd(number):
@@ -436,12 +435,26 @@ class Ga:
         best_f = self.f_obj_history[-1]
         logger.info(f"Melhor fitness obtido: {best_f}.")
         logger.info(f"Melhor solução obtida: {best_x}.")
-        logger.info(
-            f"Valores das restrições de igualdade (= 0): {[float(h) for h in self.h_const(best_x)]}."
-        )
-        logger.info(
-            f"Valores das restrições de desigualdade (< 0): {[float(g) for g in self.g_const(best_x)]}."
-        )
+
+        results = {
+            "best_x": best_x,
+            "best_f": best_f,
+            "max_gen": self.gen,
+            "f_calls": self.f_obj_calls,
+            "exec_time": exec_time,
+        }
+
+        if self.h_const is not None:
+            logger.info(
+                f"Valores das restrições de igualdade (= 0): {[float(h) for h in self.h_const(best_x)]}."
+            )
+            results.update({"h_values": [float(h) for h in self.h_const(best_x)]})
+        if self.g_const is not None:
+            logger.info(
+                f"Valores das restrições de desigualdade (< 0): {[float(g) for g in self.g_const(best_x)]}."
+            )
+            results.update({"g_values": [float(g) for g in self.g_const(best_x)]})
+
         logger.info(
             f"Tempo despendido na execução: {exec_time:.2f} s "
             f"({exec_time / 60:.2f} minutos)."
@@ -463,15 +476,7 @@ class Ga:
         if self.configs.get_config_else(None, "plot_f_obj_history"):
             plt.show()
 
-        return {
-            "best_x": best_x,
-            "best_f": best_f,
-            "max_gen": self.gen,
-            "h_values": [float(h) for h in self.h_const(best_x)],
-            "g_values": [float(g) for g in self.g_const(best_x)],
-            "f_calls": self.f_obj_calls,
-            "exec_time": exec_time,
-        }
+        return results
 
     def maxima(self):
         self.optimize()
